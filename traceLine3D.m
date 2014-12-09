@@ -64,7 +64,7 @@ while abs( norm( curpt - p2)) > EPS
 	
 	cnt = cnt + 1;
 	
-	% check if final voxel boundaries of final pt reached
+	% check if voxel boundaries of final pt reached
 	cc = 0;
 	if sgx > 0
 		if floor( curpt( 1) + EPS) == floor( p2( 1))
