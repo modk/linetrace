@@ -102,7 +102,7 @@ while abs( norm( curpt - p2)) > EPS
 		y = 0;
 	end
 
-	if a < x
+	if a > x
 		% step to the right
 		nextpt = curpt + [a y];
 	else
