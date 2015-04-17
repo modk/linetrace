@@ -103,7 +103,7 @@ while abs( norm( curpt - p2)) > EPS
 	if cc == 3
 		% we are at the final voxel, exit
 		pts( cnt, :) = p2;
-		ds( cnt) = norm( curpt - p2);
+		ds( cnt) = norm( ( curpt - p2) .* discretization);
 		break;
 	end
 
